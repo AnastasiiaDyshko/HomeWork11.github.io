@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url("../img/img.png");
+    height: 865px;
+    padding-top: 20px;
+    font-family: "Raleway";
+}
+.header__info{
+    text-align: center;
+    width: 350px;
+    margin: 0 auto;
+}
+.header__title{
+    font-weight: 700;
+    font-size: 55px;
+}
+.header__text{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 25px;
+}
+.section{
+    display: flex;
+    justify-content: space-around;
+
+}
+.section__nav{
+    padding-top: 3%;
+    margin-right: 20%;
+    line-height: 20px;
+}
+.section__nav-text{
+    margin: 15px 0;
+}
+.section__nav h5{
+    font-weight: 700;
+    font-size: 17px;
+}
+.section__nav p{
+    font-weight: 300;
+    font-size: 17px;
+}
+.section__form{
+    padding-top: 3%;
+}
+.form__input{
+    width: 500px;
+    height: 50px;
+    background-color: #67d3d6;
+    border: none;
+    margin: 8px 0;
+    padding-left: 20px;
+    opacity: 0.5;
+    color: white;
+}
+::-webkit-input-placeholder {color: white;}
+::-moz-placeholder          {color: white;}
+:-moz-placeholder           {color: white;}
+:-ms-input-placeholder      {color: white;}
+:focus::-webkit-input-placeholder {color: transparent}
+:focus::-moz-placeholder          {color: transparent}
+:focus:-moz-placeholder           {color: transparent}
+:focus:-ms-input-placeholder      {color: transparent}
+.form__textarea{
+    width: 500px;
+    height: 250px;
+    background-color: #67d3d6;
+    opacity: 0.5;
+    padding-left: 20px;
+    padding-top: 20px;
+    border: none;
+    margin: 8px 0;
+}
+.form__section-button--style{
+    background-color: #67d3d6;
+    padding: 10px;
+    border: none;
+    margin: 8px 0;
+    color: white;
+    width: 150px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 20px;
+    opacity: 1;
+}
+.footer{
+    background-image: url("../img/bg-foodter.png");
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer__company{
+    font-family: "Raleway";
+    font-size: 17px;
+    font-weight: 300;
+    margin: 35px 0;
+    color: #b9b9b9;
+}
+.footer__logo{
+    font-family: "Pacifico";
+    font-size: 25px;
+    color: #b9b9b9;
+    margin: 25px 0;
+}
+.footer__text{
+    font-family: "Raleway";
+    font-size: 17px;
+    font-weight: 300;
+    margin: 35px 0;
+    color: #b9b9b9;
+}
+.footer__text--color-red{
+    color: red;
+}
+.form__input:focus{
+    background-color: #00c4c4;
+    border-left: 4px solid #355b82;
+    opacity: 1;
+    color: white;
+}
+.form__textarea:focus{
+    background-color: #00c4c4;
+    border-left: 4px solid #355b82;
+    opacity: 1;
+    color: white;
+}
+.form__section-button--style:hover{
+    transform: scale(1.1, 1.1);
+    transition: all .1s ease-in-out;
+}
